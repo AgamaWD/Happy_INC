@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Happy INC test</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img class="card-header__flag" src="/img/loyalty.svg" alt="">
+                <div class="card__circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+                        <path d="M150 5 A -110 -110 0 1 1 82 5" stroke="#ECECEC" fill="none" stroke-width="8" stroke-linecap="round"></path>
+                        <path d="M175 202 A -110 -110 0 0 1 175 202" stroke="none" fill="none" stroke-width="10" stroke-linecap="round">
+                            <animate attributeName="stroke" dur="0.05s" 
+                                values="none; #70A84B" 
+                                fill="freeze"
+                                begin="1s">
+                            </animate> 
+                            <animate attributeName="d" dur=".8s" 
+                                values="M175 202 A -110 -110 0 0 1 175 202;
+                                M175 202 A -110 -110 0 0 1 155 212;
+                                M175 202 A -110 -110 0 0 1 135 218;
+                                M175 202 A -110 -110 0 0 1 115 220;
+                                M175 202 A -110 -110 0 0 1 95 218;
+                                M175 202 A -110 -110 0 0 1 75 212;
+                                M175 202 A -110 -110 0 0 1 55 202;
+                                M175 202 A -110 -110 0 0 1 38 187;
+                                M175 202 A -110 -110 0 0 1 21 165;" 
+                                fill="freeze"
+                                begin="1.05s">
+                            </animate> 
+                        </path>
+                        <path d="M150 5 A -110 -110 0 0 1 150 5" stroke="#FBD229" fill="none" stroke-width="10" stroke-opacity="0" stroke-linecap="round">
+                            <animate attributeName="stroke-opacity" dur="0.2s" 
+                            values="0; 1" 
+                            fill="freeze">
+                            </animate> 
+                            <animate attributeName="d" dur=".8s" 
+                                values="M150 5 A -110 -110 0 0 1 150 5;
+                                M150 5 A -110 -110 0 0 1 190 30;
+                                M150 5 A -110 -110 0 0 1 211 55;
+                                M150 5 A -110 -110 0 0 1 221 80;
+                                M150 5 A -110 -110 0 0 1 226 105;
+                                M150 5 A -110 -110 0 0 1 224 130;
+                                M150 5 A -110 -110 0 0 1 216 155;
+                                M150 5 A -110 -110 0 0 1 201 180;
+                                M150 5 A -110 -110 0 0 1 175 202"
+                                fill="freeze"
+                                begin=".2s">
+                            </animate>
+                        </path>
+                    </svg>
+                </div>
+                <p class="card__value _title">72<span class="_small">.7</span></p>
+                <p class="card__title _title">Лояльность</p>
+                <p class="card__grade _title">ниже среднего</p>
+                <p class="card__desc _text">по отрасли: FMCG<br>значений слева от медианны<br>52.0% - 83.1%</p>
+                <div class="card__changes">
+                    <svg width="16" height="8" viewBox="0 0 16 8">
+                        <path d="M8 0 L0 8 L16 8 z" fill="#70A74B" stroke="#70A74B" stroke-width="1.5"></path>
+                    </svg>
+                    <span>3.1</span>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="card-category _title _flex">
+                    <div class="card-category__name">Промоутеры</div>
+                    <div class="card-category__indicators">
+                        <p>32.0%</p>
+                        <div class="card-category__vote _flex">
+                            <span>81</span><img class="card-category__icon" src="./img/human_full.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-category__changes" style="background: linear-gradient(#70A74B, #70A74B) top left no-repeat, linear-gradient(#B5D0A2, #B5D0A2) bottom left no-repeat;
+                    background-size: 34% 81%, 32.8% 20%;">
+                        <span>+1.2%</span>
+                    </div>
+                </div>
+                <div class="card-category _title _flex">
+                    <div class="card-category__name">Скептики</div>
+                    <div class="card-category__indicators">
+                        <p>39.1%</p>
+                        <div class="card-category__vote _flex">
+                            <span>8</span><img class="card-category__icon" src="./img/human_full.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-category__changes" style="background: linear-gradient(#FBD229, #FBD229) top left no-repeat, linear-gradient(#FAE691, #FAE691) bottom left no-repeat;
+                    background-size: 35% 81%, 30.2% 20%;">
+                        <span>+4.8%</span>
+                    </div>
+                </div>
+                <div class="card-category _title _flex">
+                    <div class="card-category__name">Критики</div>
+                    <div class="card-category__indicators">
+                        <p>79.8%</p>
+                        <div class="card-category__vote _flex">
+                            <span>7</span><img class="card-category__icon" src="./img/human_full.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card-category__changes" style="background: linear-gradient(#ED5243, #ED5243) top left no-repeat, linear-gradient(#F3A69E, #F3A69E) bottom left no-repeat;
+                    background-size: 29% 81%, 35.7% 20%;">
+                        <span>-9.7%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-lateral-line">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 240" width="32" height="240">
+                    <polyline points="32,1 7,1 7,198" stroke="#B1B1B1" stroke-width="1" fill="none" stroke-linejoin="round"></polyline>
+                    <line x1="8" y1="178" x2="23" y2="178" stroke="#B1B1B1" stroke-width="1"></line>
+                    <line x1="0" y1="211" x2="14" y2="211" stroke="#B1B1B1" stroke-width="1"></line>
+                    <line x1="7" y1="204" x2="7" y2="218" stroke="#B1B1B1" stroke-width="1"></line>
+                    <polyline points="7,220 7,232 17,232" stroke="#B1B1B1" stroke-width="1" fill="none" stroke-linejoin="round"></polyline>
+                </svg>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
