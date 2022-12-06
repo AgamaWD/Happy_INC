@@ -74,9 +74,23 @@ ul, ol {
 }
 
 .card__value {
+    position: relative;
     font-size: 48px;
     line-height: 1.05;
     color: #545353;
+}
+
+.card__value ._small {
+    position: relative;
+}
+
+.card__value ._small:before {
+    content: "%";
+    position: absolute;
+    font-size: 18px;
+    color: #CCCCCC;
+    right: 0;
+    top: -60%;
 }
 
 .card__value ._small {
